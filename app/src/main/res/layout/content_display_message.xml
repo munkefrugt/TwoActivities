@@ -10,15 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.twoactivities.DisplayMessageActivity"
-    tools:showIn="@layout/activity_display_message">
+    tools:showIn="@layout/activity_display_message"
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="wau en ny activity"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp" />
+    android:id="@+id/content">
+
 </RelativeLayout>
