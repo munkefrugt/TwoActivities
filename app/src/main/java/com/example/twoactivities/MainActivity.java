@@ -68,7 +68,8 @@ public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
         // get the editText element from the TextView.
         //findViewById() when casted to (EditText ) givees us edit text.
 
-        //IMPORTANT : the  its a field the user can write in.
+        //IMPORTANT : There is a big difference between textView and editText. the EditText is a field the user can write in.
+        //  and here it has to be editText
         EditText editText = (EditText) findViewById(R.id.edit_message);
 
         // get the text from the editText and make it into a string
